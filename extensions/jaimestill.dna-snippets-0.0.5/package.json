@@ -1,0 +1,51 @@
+{
+	"name": "dna-snippets",
+	"displayName": ".NET Core Angular Stack Snippets",
+	"description": "Personal snippets for my ASP.NET Core and Angular workflow",
+	"version": "0.0.5",
+	"publisher": "jaimestill",
+	"author": {
+		"name": "jaimestill"
+	},
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#0090ff",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JaimeStill/dna-snippets.git"
+	},
+	"homepage": "https://github.com/JaimeStill/dna-snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/csharp.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/typescript.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/css.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "93c78731-67c3-4297-adbe-ff54c3571d78",
+		"publisherId": "0528dd92-a295-44fa-853d-360ced519405",
+		"publisherDisplayName": "JaimeStill"
+	}
+}
